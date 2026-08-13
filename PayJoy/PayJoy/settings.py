@@ -13,7 +13,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
-# Quick-start development settings - unsuitable for production
+# Quick-start development settings - unsuitable for settings
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -89,4 +89,4 @@ STATIC_URL = '/static/'
 
 # MongoDB
 from mongoengine import connect 
-connect('PayJoy')  
+coconnectPayJoy')  
